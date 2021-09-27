@@ -1,4 +1,29 @@
-def hello(name=None):    
+def hello(name=None):    # none = null in another language
+
     if not name:
         return "Hello, World!"
     return "Hello, %s!"%(name.capitalize())
+
+#capitalize の使い方のみ
+"""
+
+
+
+以下私の回答
+
+name = input()
+
+#スペースを消しなさい
+#print(name)
+name = name.replace(" ","")
+print(name)
+
+if not name:#条件が偽の時の条件処理
+    #none はFalse/0と認識される
+    print("Hello, world!")      
+else:
+    name = name.lower()
+    print("Hello, %s!" %name.title())
+
+
+
