@@ -1,4 +1,4 @@
-def hello(name=None):    # none = null in another language
+def hello(name=None):    # none =　初期値 null in another language
 
     if not name:
         return "Hello, World!"
